@@ -1,0 +1,163 @@
+.logo{
+    border-radius: 50%;
+    max-height: 55px;
+    max-width: 55px;
+}
+
+
+
+.imagemPlataforma{
+    max-height: 500px;
+    max-width: 350px;
+}
+
+nav{
+    background-color: #191A19;
+    font-family: Roboto,sans-serif;
+}
+.item-carrossel{
+    display: flex;
+}
+
+
+.corpoSite{
+    background-color: white;
+    font-family: Roboto,sans-serif;
+    padding: 80px;
+}
+.carousel-indicators{
+    display: block;
+}
+.destaque{
+    background-color: lightgray;
+}
+
+.destaque-titulo{
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+#titulo-destaque{
+    text-align: center;
+}
+
+.text{
+    display: inline-block;
+}
+
+.lancamentos{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.lancamentosTitulo{
+    display: inline-block;
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.dropdown{
+    display: inline-block;
+    margin-top: 5px;
+    position: absolute;
+    left:75%;
+}
+
+.texto-destaque{
+    margin-left: 12em;
+}
+
+.detalhes{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.boldTitulo{
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#carregarMais{
+    position: absolute;
+    right: 5%;
+}
+
+#carregarMaisPlat{
+    position: absolute;
+    right: 8%;
+}
+
+
+#containterContent{
+    padding-top: 100px;
+
+}
+
+.plataformas{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.plataformasTitulo{
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.detalhesPlataforma{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.listaPlataformas{
+    padding-left: 100px;
+    position: relative;
+    text-align: left;
+    display: block;
+}
+
+.principaisJogos{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.publishers{
+    background-color: lightgray;
+    position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.publishersTitulo{
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+
+.listaPublishers{
+    padding-left: 100px;
+    position: relative;
+    text-align: left;
+    display: block;
+}
+
+#logoPUC{
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 30%;
+    right: 3%;
+}

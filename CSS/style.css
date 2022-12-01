@@ -5,7 +5,6 @@
 }
 
 
-
 .imagemPlataforma{
     max-height: 500px;
     max-width: 350px;
@@ -75,12 +74,18 @@ nav{
 .detalhes{
     text-align: left;
     padding-left: 30px;
+    font-weight: bold;
 }
 
 .boldTitulo{
     font-family: Roboto,sans-serif;
     font-weight: bold;
     font-size: 30px;
+    cursor: pointer;
+}
+
+.boldTitulo:hover{
+    color: rgb(5, 110, 22);
 }
 
 #carregarMais{

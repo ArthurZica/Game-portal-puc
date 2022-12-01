@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap|Prompt:ital,wght@0,200;0,900;1,400;1,600&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="./Js/jquery-3.6.1.js"></script>
   </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
@@ -114,7 +114,7 @@
           <h1 class="lancamentosTitulo">Lançamentos</h1>
 
           <div class="dropdown">
-            <div class="btn-group">
+            <div id="dropdown-genero" class="btn-group">
               <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                 Ordem: Popularity
               </button>
@@ -139,49 +139,42 @@
             </div>
           </div>
 
-
           <div class="container text-center" id="containterContent">
             <div class="row">
               <div class="col">
-                <h1 class="boldTitulo">The Witcher 3</h1>
-                <iframe width="350" height="200" src="https://www.youtube.com/embed/LDnENTDuAiI">
-                </iframe>
-                <h6 class="detalhes">Mais detalhes...</h6>
+                <h1  id="jogotitulo1" class="boldTitulo"></h1>
+                <img id="jogoimagem1" width="350" height="200" src="">
+                <h6 id="avaliação1" class="detalhes">Mais detalhes...</h6>
               </div>
 
-              <div class="col">
-                <h1 class="boldTitulo">GTA V</h1>
-                <iframe width="350" height="200" src="https://www.youtube.com/embed/jM2HHp-inug">
-                </iframe>
-                <h6 class="detalhes">Mais detalhes...</h6>
+              <div   class="col">
+                <h1  id="jogotitulo2" class="boldTitulo"></h1>
+                <img id="jogoimagem2" width="350" height="200" src="">
+                <h6 id="avaliação2" class="detalhes">Mais detalhes...</h6>
               </div>
         
               <div class="col">
-                <h1 class="boldTitulo">AC Valhalla</h1>
-                <iframe width="350" height="200" src="https://www.youtube.com/embed/5b_coh57UXc">
-                </iframe>
-                <h6 class="detalhes">Mais detalhes...</h6>
+                <h1 id="jogotitulo3" class="boldTitulo"></h1>
+                <img  id="jogoimagem3" width="350" height="200" src="">
+                <h6 id="avaliação3" class="detalhes">Mais detalhes...</h6>
               </div>
 
               <div class="col">
-                <h1 class="boldTitulo">GOW Ragnarok</h1>
-                <iframe width="350" height="200" src="https://www.youtube.com/embed/0N4J-7gsaGc">
-                </iframe>
-                <h6 class="detalhes">Mais detalhes...</h6>
+                <h1 id="jogotitulo4" class="boldTitulo"></h1>
+                <img id="jogoimagem4" width="350" height="200" src="">
+                <h6 id="avaliação4" class="detalhes">Mais detalhes...</h6>
               </div>
 
               <div class="col">
-                <h1 class="boldTitulo">HZD: F. West</h1>
-                <iframe width="350" height="200" src="https://www.youtube.com/embed/pk1B9-qaoTs">
-                </iframe>
-                <h6 class="detalhes">Mais detalhes...</h6>
+                <h1 id="jogotitulo5" class="boldTitulo"></h1>
+                <img  id="jogoimagem5" width="350" height="200" src="">
+                <h6 id="avaliação5" class="detalhes">Mais detalhes...</h6>
               </div>
 
               <div class="col">
-                <h1 class="boldTitulo">Grand Turismo 7</h1>
-                <iframe width="350" height="200" src="https://www.youtube.com/embed/9nNaBeWqyFM">
-                </iframe>
-                <h6 class="detalhes">Mais detalhes...</h6>
+                <h1 id="jogotitulo6" class="boldTitulo"></h1>
+                <img id="jogoimagem6" width="350" height="200" src="">
+                <h6 id="avaliação6" class="detalhes">Mais detalhes...</h6>
               </div>
 
             </div>
@@ -199,8 +192,8 @@
           <div class="container text-center" id="containterContent">
             <div class="row">
               <div class="col">
-                <h1 class="boldTitulo">Xbox:</h1>
-                <img class="imagemPlataforma" src="https://programadoresbrasil.com.br/wp-content/uploads/2022/01/xbox-one-x-s-edited-1024x576.jpeg" alt="">
+                <h1 id="nomeplataforma1" class="boldTitulo"></h1>
+                <img id="imagemplataforma1" class="imagemPlataforma" src="https://programadoresbrasil.com.br/wp-content/uploads/2022/01/xbox-one-x-s-edited-1024x576.jpeg" alt="">
                 <h5 class="principaisJogos">Principais Jogos</h5>
                 <ul class="listaPlataformas">
                   <li>Halo</li>
@@ -211,8 +204,8 @@
               </div>
           
               <div class="col">
-                <h1 class="boldTitulo">Playstation</h1>
-                <img class="imagemPlataforma" src="https://programadoresbrasil.com.br/wp-content/uploads/2020/11/PS5-1-1024x576.png" alt="">
+                <h1 id="nomeplataforma2" class="boldTitulo"></h1>
+                <img id="imagemplataforma2" class="imagemPlataforma" src="https://programadoresbrasil.com.br/wp-content/uploads/2020/11/PS5-1-1024x576.png" alt="">
                 <h5 class="principaisJogos">Principais Jogos</h5>
                 <ul class="listaPlataformas">
                   <li>God of War</li>
@@ -223,8 +216,8 @@
               </div>
 
               <div class="col">
-                <h1 class="boldTitulo">PC</h1>
-                <img class="imagemPlataforma" src="https://blog.positivocasainteligente.com.br/wp-content/uploads/2020/06/1-1024x576.jpg" alt="">
+                <h1 id="nomeplataforma3" class="boldTitulo"></h1>
+                <img id="imagemplataforma3" class="imagemPlataforma" src="https://blog.positivocasainteligente.com.br/wp-content/uploads/2020/06/1-1024x576.jpg" alt="">
                 <h5 class="principaisJogos">Principais Jogos</h5>
                 <ul class="listaPlataformas">
                   <li>Counter Strike</li>
@@ -316,7 +309,7 @@
                   <i class="fas fa-envelope me-3"></i>
                   MyComputerBrasil@mcb.com
                 </p>
-                <p><i class="fas fa-home me-3"></i> Vitor Ribeiro Lacerda, Arthur Zica</p>
+                <p><i class="fas fa-home me-3"></i> Vitor Ribeiro Lacerda, Matrícula: 795992</p>
               </div>
               <!-- Grid column -->
               
@@ -336,10 +329,18 @@
       <!-- Footer -->
     </div>
   </div>
-    
 
-
+  <script src="./Js/script.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#carregarMaisPlat").click(function(){
+        $("#containterContent").load("load.html");
+      });
+    });
+    $
+  </script>
 </body>
 </html>
 
 
+<!-- 84860f89c4ba45e0ab92ab9c686dd12c -->
